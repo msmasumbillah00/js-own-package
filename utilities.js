@@ -10,8 +10,6 @@ const  chartSingleDb=(id,quantity)=>{
 }
 
 const  chartMultiDb=(id,value)=>{
-    
-    
 
     if(localStorage.getItem(id)){
        const oldData=JSON.parse(localStorage.getItem(id));
@@ -39,5 +37,12 @@ const  addToSingleDb=(id)=>{
 }
 
 const  addToMultiDb=(id,value)=>{
+
+}
+
+
+export {
+    chartSingleDb,
+    chartMultiDb
 
 }
