@@ -49,7 +49,7 @@ const  addToMultiDb=(id,value)=>{
 
 }
 
-const getShoppingCart = (key) => {
+const getChartData = (key) => {
     let shoppingCart = {};
 
     //get the shopping cart from local storage
@@ -63,6 +63,6 @@ const getShoppingCart = (key) => {
 export {
     chartSingleDb,
     chartMultiDb,
-    getShoppingCart
+    getChartData
 
 }
